@@ -11,13 +11,30 @@
     background-color: #FF900E;
     border-radius: 8px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
-    padding: 20px 25px;
+    padding:15px 20px;
     border: 0;
+    margin-top: 30px;
 
 }
+
+.description {
+
+    color: #727272;
+    font-weight: 200;
+    font-size: 16px;
+
+}
+.title {
+
+    color: #131313;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
 
 /* Head  and banner section styles */
 .head {
@@ -27,7 +44,7 @@
 }
 
 .nav-container {
-    
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -62,41 +79,24 @@
 }
 
 .banner-container {
-    
+
     width: 100%;
 
     text-align: center;
     margin-top: 100px;
-   
+
 }
 
-.banner-items{
-    
+.banner-items {
+
     margin: 0 400px;
 }
 
-.banner-title {
-  
-    color: #131313;
-    font-weight: 800;
-    font-size: 40px;
-    margin-bottom: 30px;
-}
 
-.banner-description {
-    
-    color: #727272;
-    font-weight: 200;
-    font-size: 16px;
-    
-}
-
-.banner-btn{
-    margin: 20px ;
-}
 
 .banner-image {
     margin: 0 240px;
+    margin-bottom: 80px;
 
 
 }
@@ -107,3 +107,41 @@
     margin: 50px 0;
 
 }
+
+/* Main section styles */
+.main-head {
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 130px;
+  
+
+
+
+}
+
+.main-container {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 300px;
+
+
+
+}
+
+.team-images {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 10px;
+
+
+}
+
+.team-images img {
+    width: 200px;
+    height: 200px;
+}
+
+
