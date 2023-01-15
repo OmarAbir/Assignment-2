@@ -275,7 +275,7 @@
     align-items: center;
     column-gap: 50px;
     margin-top: 50px;
-    margin-bottom: 130px;
+    
 
     
 }
@@ -284,3 +284,20 @@
      filter: contrast(0);
    
 }
+
+/* Footer Section Styles  */
+.footer{
+    height: 100%;
+    
+}
+
+.footer-container{
+ background: #FFF4E7;
+    border-radius: 8px;
+    padding: 35px 100px ;
+    margin: 150px 240px;
+    text-align: center;
+    
+
+}
+
