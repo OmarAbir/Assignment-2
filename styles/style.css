@@ -14,7 +14,7 @@
     font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
-    padding:15px 20px;
+    padding: 15px 20px;
     border: 0;
     margin-top: 30px;
 
@@ -27,6 +27,7 @@
     font-size: 16px;
 
 }
+
 .title {
 
     color: #131313;
@@ -114,7 +115,7 @@
     height: 100%;
     width: 100%;
     margin-bottom: 130px;
-  
+
 
 
 
@@ -145,3 +146,71 @@
 }
 
 
+/* Features section styles */
+
+.features {
+
+
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    margin: 0 300px;
+
+
+}
+
+
+
+
+.feature-info .info-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    border-left: 5px solid #FF900E;
+
+}
+
+
+.features-provide {
+    margin-top: 30px;
+}
+
+
+.feature {
+    width: 350px;
+    height: 80px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.feature-architect img {
+    width: 708px;
+    height: 982px;
+}
+
+
+.experience {
+    display: inline-block;
+    background-color: #FF900E;
+    padding: 45px 40px;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: -100px;
+    margin-top: -200px;
+}
+
+.experience h3 {
+    font-weight: 700;
+    font-size: 50px;
+
+    color: #FFFFFF;
+}
+
+.experience p {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+}
