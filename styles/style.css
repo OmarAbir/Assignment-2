@@ -177,7 +177,7 @@
 
 
 .feature {
-    width: 350px;
+    width: 300px;
     height: 80px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
@@ -187,8 +187,8 @@
 }
 
 .feature-architect img {
-    width: 708px;
-    height: 982px;
+    width: 600px;
+    height: 900px;
 }
 
 
@@ -299,5 +299,27 @@
     text-align: center;
     
 
+}
+
+
+/* media queries  */
+
+/* Mobile Devices */
+
+
+@media only screen and  (max-width:576px) {
+
+    .head{
+        
+        
+        
+    }
+   
+    
+
+    
+
+
+    
 }
 
